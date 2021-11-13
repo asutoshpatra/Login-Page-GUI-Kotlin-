@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".question_1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="Microsoft Teams"
+        android:textColor="#464EB8"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        app:shapeAppearanceOverlay="@style/Circular"
+        app:srcCompat="@drawable/image2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:fontFamily="sans-serif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Get started with your work, school or \n personal Microsoft account"
+        android:textColor="#8F8D8D"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginVertical="10dp"
+        android:background="@drawable/round_corner"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="15dp"
+        android:text="Enter email, phone, or Skype"
+        android:textColor="#CAC9C9"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="sans-serif"
+        android:padding="15dp"
+        android:text="Sign in"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        app:backgroundTint="#464EB8"
+        app:cornerRadius="10dp"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:text="Get help with signing in"
+        android:textColor="#464EB8"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="sans-serif"
+        android:padding="10dp"
+        android:text="Join a meeting"
+        android:textAllCaps="false"
+        android:textColor="#464EB8"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/white"
+        app:cornerRadius="10dp"
+        app:strokeColor="#464EB8"
+        app:strokeWidth="2dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="5dp"
+        android:drawableLeft="@drawable/download1"
+        android:fontFamily="sans-serif"
+        android:padding="10dp"
+        android:text="Sign up for free"
+        android:textAllCaps="false"
+        android:textColor="#464EB8"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/white"
+        app:cornerRadius="8dp"
+        app:strokeColor="#464EB8"
+        app:strokeWidth="2dp" />
+
+
+
+</LinearLayout>
